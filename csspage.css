@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+}
+.accueil{
+display: flex;
+}
+header .logo p span{
+    font-size: 40px;
+    color: palevioletred;
+    font-weight: bolder;
+    font-style: italic;
+}
+header .logo p{
+    font-size: 40px;
+    color: gray;
+    font-weight: bolder;
+}
+
+header{
+    font-size: 200%;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 10%;
+    background-color:rgb(221, 171, 188);
+    box-shadow:  2px 4px 8px rgb(133, 77, 4);
+
+}
+header .home{
+    list-style: none;
+    display: flex;
+}
+
+.home li{
+    list-style: none;
+    margin: 50px 15px;
+    display: inline;
+    font-size: 20px;
+
+}
+h2{
+    font-size: 200%;
+    
+}
+p a{
+    color: rgb(99, 51, 105);
+}
+h5{
+    font-size: 100%;
+    text-decoration: underline;
+}
+img{
+margin-top: 2%;
+margin-left: 20%;
+}
+p{
+    font-size: 130%;
+    text-align:justify;
+    padding-left: 8%;
+}
+h4{
+    font-size: 100%;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 19%;
+}
+h1{
+    background-color:rgb(59, 54, 54);
+    color: palevioletred;
+    opacity: 0.6;
+    font-size: 300%;
+}
+#tout{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    flex-wrap: wrap;
+
+}
