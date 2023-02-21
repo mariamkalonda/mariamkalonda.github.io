@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     color:gray;
@@ -46,6 +51,7 @@ header .home{
 }
 h2{
     font-size: 200%;
+
     
 }
 p a{
@@ -82,4 +88,26 @@ h1{
     border: 2px solid black;
     flex-wrap: wrap;
 
+}
+.group_list{
+    /* border: 3px solid forestgreen; */
+    position: relative;
+    width: 50%;
+    /* background-color: blue; */
+}
+.group_list li{
+    padding: 0;
+    list-style: none;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.group_list li img{
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+@font-face {
+    font-family: mariamfont;
+    src: url("CormorantGaramond-Bold.ttf");
 }
