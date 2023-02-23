@@ -7,9 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color:gray;
 }
-.accueil{
-display: flex;
-}
+
 header .logo p span{
     font-size: 40px;
     color: palevioletred;
@@ -25,8 +23,9 @@ header .logo p{
 header{
     font-size: 200%;
     z-index: 1000;
-    width: 100%;
     top: 0;
+    box-sizing: border-box;
+    width: 100%;
     color:gray;
     display: flex;
     align-items: center;

@@ -8,42 +8,93 @@
 	<link rel="stylesheet" href="../Project_1/secondpage.html">
 	<title>KAL_Couture</title>
 </head>
-<body style="background-color: rgb(211, 206, 214);">
+<body >
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.accueil{
+			/* display: grid;
+			grid-template-columns: repeat(auto-fill(400px,1fr)); */
+			display: flex;
+			gap: 10px;
+			width: 100%;
+		}
+		.accueil .right{
+			/* width: 400px; */
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+		.accueil .right > *{
+			max-width: 80%;
+			object-fit: cover;
+		}
+		
+		.accueil .left{
+			width: 50%;
+			/* width: 400px; */
+			padding-top: 3rem;
+		}
+		@media   (max-width: 992px) {
+			.accueil{
+				/* display: grid;
+				grid-template-columns: repeat(auto-fill(400px,1fr)); */
+				display: block;
+				gap: 10px;
+				width: 100%;
+			}
+			.accueil .right{
+				width: 100%;
+				/* object-fit: cover;
+				max-width: 300px; */
+			}
+			.accueil .left{
+				width: 100%;
+				/* object-fit: cover;
+				max-width: 300px; */
+			}
+		}
+	</style>
 	<header>
 		<div class="logo">
 		<p>K<span>A</span>L_Cout<span>u</span>re</p>
 		</div>
 	</header>
-		<section class="accueil">
-			<div class="left">
+		<section class="accueil" >
+			<div class="left" >
 				<H2><marquee>Bonjour et bienvenue sur le site officiel de KAL_Couture!</marquee></H2>
-				<h4>Fashion as unique as you are...</h4>
-				<p style="padding-top: 15%;font-size: 21px;">
-				KAL_Couture est une maison de couture et de mode<br>
+				<main style="font-style: italic;text-decoration: underline;margin-left: 250px;">Fashion as unique as you are...</main>
+				<p style="margin-top: 7%;">
+				KAL_Couture est une maison de couture et de mode
 				ayant pour marque principale KAL ;creer par <a href="Founder.html">Kalonda Mariam</a>,<br>
-				elle a pour vision premièrement de raviver la flamme dans <br>
-				le secteur de la couture en ville de Beni et dans toute la<br>
-				province du Kivu pourquoi pas dans toute l’Afrique de l’est<br>
-				dans un premier temps. Deuxièmement,d’intégrer une toute <br>
-				nouvelle marque de vêtement sur le marché KAL ;cette dernière<br>
-				pourrait être la toute 1ere marque originaire de la ville et <br>
-				de la province.Elle se specialise dans la production des <br>
-				pret-a-portes(KAL Sewings) et la production des sacs fait a <br>
-				la main (KAL Hooking bag).<br>
+				elle a pour vision premièrement de raviver la flamme dans 
+				le secteur de la couture en ville de Beni et dans toute la
+				province du Kivu pourquoi pas dans toute l’Afrique de l’est
+				dans un premier temps. Deuxièmement,d’intégrer une toute 
+				nouvelle marque de vêtement sur le marché KAL ;cette dernière
+				pourrait être la toute 1ere marque originaire de la ville et 
+				de la province.Elle se specialise dans la production des 
+				pret-a-portes(KAL Sewings) et la production des sacs fait a 
+				la main (KAL Hooking bag).
 				</p>
 			</div>
-			<div class="right">
-				<img style="padding-left: 20%;"  src="xxxxx.png" alt="Logo">
-				<img src="kkkk.jpg" alt="logo1">
+			<div class="right" >
+				<img src="signature.png" alt="Logo">
+				<img src="bac3.jpg" alt="logo1">
 			</div>
 		</section>
 		
 		<div class="x">
-			<p><a href="Contacts.html">Pour plus d'informations,contactez nous !</a> 
-			</p>
+			<footer>
+				<a href="Contacts.html">Pour plus d'informations,contactez nous !</a> 
+			<footer>
+				<a href="index.html">Revenir au menu</a>
+			</footer>
 		</div>
-	
-
 </body>
 </html>
 	
