@@ -1,0 +1,71 @@
+header .logo p span{
+    font-size: 40px;
+    color: palevioletred;
+    font-weight: bolder;
+    font-style: italic;
+}
+header .logo p{
+    font-size: 40px;
+    color: gray;
+    font-weight: bolder;
+}
+
+header{
+    font-size: 200%;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 10%;
+    background-color:rgb(221, 171, 188);
+    box-shadow:  2px 4px 8px rgb(133, 77, 4);
+
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.vet{
+    border: rgb(139, 116, 128) solid 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.titre{
+    font-family: mariamfont;
+    font-size: 30px;
+    color: rgb(112, 86, 92);
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    transition: all ease-in-out .3s;
+    backdrop-filter: blur(100px);
+    max-width: 30rem;
+    padding: 2rem 15%;
+    background: var(--light);
+    box-shadow: 1px 1px 6px var(--black);
+    border-radius: 5px;
+    text-align: center;
+    border: var(--border);
+    transition: .3s all ease-in-out;
+    border:solid blue;
+}
+img a:hover{
+    letter-spacing: .2rem;
+
+}
+.img a{
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    background: var(--background);
+    transition: all .3s ease-in-out;
+
+}
