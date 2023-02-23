@@ -52,7 +52,7 @@ header{
     text-align: center;
     border: var(--border);
     transition: .3s all ease-in-out;
-    border:solid blue;
+    border:solid rgb(116, 88, 100);
 }
 img a:hover{
     letter-spacing: .2rem;
