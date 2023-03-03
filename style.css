@@ -9,7 +9,6 @@ header .logo p{
     color: gray;
     font-weight: bolder;
 }
-
 header{
     box-sizing: border-box;
     font-size: 200%;
@@ -25,31 +24,42 @@ header{
     background-color:rgb(221, 171, 188);
     box-shadow:  2px 4px 8px rgb(133, 77, 4);
 }
-.all{
-    display: flex;
-    flex-direction: column;
-}
-.vet{
-    border: rgb(139, 116, 128) solid 2px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-}
-.titre{
-    font-family: mariamfont;
+button:hover{
+    color: aquamarine;
+    background-color: rgb(144, 150, 148);
     font-size: 30px;
-    color: rgb(112, 86, 92);
-}
-img a:hover{
+    transition: 0.3s all ease-in-out;
     letter-spacing: .2rem;
 }
-.img a{
-    color: rgb(22, 21, 21);
-    text-decoration: none;
-    margin-top: 1rem;
-    display: inline-block;
-    padding: .9rem 3rem;
-    font-size: 1.7rem;
-    background: var(--background);
-    transition: all .3s ease-in-out;
+.vetement{
 
+}
+.b{
+    text-align: center;
+    align-items: center;
+    border:bisque solid 0.02px;
+    box-shadow: gray;
+}
+p{
+    font-size: larger;
+}
+.b h5{
+    background-color: rgb(180, 174, 174);
+    font-size: 12px;
+}
+.vet{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 10px;
+}
+@font-face {
+    font-family: mariamfont;
+    src: url("CormorantGaramond-Bold.ttf");
+}
+button{
+    background-color: gray;
+    border: rgb(146, 132, 138);
 }
